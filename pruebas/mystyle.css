@@ -71,6 +71,10 @@ body {
     transform: scale(1.1);
 }
 
+#btn-vision {
+    background-color: #c1d1c1;
+}
+
 #btn-signup:hover {
     transform: scale(1.1);
 }

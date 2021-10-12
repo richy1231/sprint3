@@ -1,10 +1,39 @@
 <html>
-    <head>
-        <title>Pagina Login</title>
-        <link rel="stylesheet" href="estilo.css" />
-    </head>
-    <body>
-        <form id="formRegistro" method="GET" action="" onSubmit="return validar_formulario1();">
+
+<head>
+
+    <title>Inicio de Sesion en Platycercus</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header class="cabecera">
+
+            <div id="Logo-wrap">
+                <h1 id="Logo">Platycercus elegans</h1>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li id="btn-login"><a href="Pagina Login.html">Login</a></li>
+                    <li id="btn-signup"><a href="Formulario de Registro.html">Sign up</a></li>
+                    <li id="btn-vision"><a href="Formulario de Registro.html">Conocenos </a></li>
+
+                </ul>
+            </nav>
+
+        </header>
+
+        <section id="Front-page">
+
+            <article id="front-image">
+                <img src="Fondo.png">
+            </article>
+            <article id="fpwrap">
+
+                <form id="formRegistro" method="GET" action="" onSubmit="return validar_formulario1();">
             <h1> Iniciar Sesion </h1>
             <br>
             <label>Correo</label>
@@ -21,6 +50,12 @@
             <input class="boton" name="logiar" value="Logiar" type="submit" />
             <p id="errores"></p>
         </form>
-    </body>
-    <script type="text/javascript" src="sprint3.js" ></script>
+
+            </article>
+        </section>
+    </div>
+
+
+</body>
+<script type="text/javascript" src="sprint3.js" ></script>
 </html>
