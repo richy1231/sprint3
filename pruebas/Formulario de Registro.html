@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" href="estilo.css" />
+    </head>
+    <body>
+        <form id="formRegistro" method="GET" action="" onSubmit="return validar_formulario();">
+            <h1> Registro de Usuario </h1>
+            <br>
+            <label> Nombre </label>
+            <input id="txtNombre" name="nombre" value="" type="text" />
+            <br>
+            <label>Apellidos</label>
+            <input id="txtApellidos" name="apellidos" value="" type="text" />
+            <br>
+            <label>Correo</label>
+            <input id="txtEmail" name="email" value="" type="email"  />
+            <br>
+            <label>Contraseña</label>
+            <input id="txtPassword" name="contrasena" value="" type="password" />
+            <br>
+            <label>Confirmar Contraseña</label>
+            <input id="txtPassword1" name="contrasena" value="" type="password" />
+            <br>
+            <input class="boton" name="enviar" value="Enviar" type="button" type="submit"/>
+            <p id="errores"></p>
+        </form>
+    </body>
+    <script type="text/javascript" src="sprint3.js" ></script>
+</html>
