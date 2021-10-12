@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control </title>
+    <body>
+
+        <button type="button" 
+        onclick="window.open('Pagina Login.html','ventana1',
+        'toolbar=no,menubar=no,status=yes,width=200,height=200,resizable=yes');">
+        PAGINA LOGIN
+        </button>
+
+        <button type="button" 
+        onclick="window.open('Formulario de Registro.html','ventana2',
+        'toolbar=no,menubar=no,status=yes,width=200,height=200,resizable=yes');">
+        PAGINA REGISTRO
+        </button>
+
+        <button type="button" onclick="var respuesta =confirm('¿ Esta Seguro de Continuar ?'); alert (respuesta);">CONFIRMAR OPERACION </button>
+        <button type="button" onclick="setTimeout('window.close()',5000);" >CERRAR VENTANA </button>
+
+    </body>
+</head>
+</html>

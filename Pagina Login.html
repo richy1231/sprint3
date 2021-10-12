@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Pagina Login</title>
+        <link rel="stylesheet" href="estilo.css" />
+    </head>
+    <body>
+        <form id="formRegistro" method="GET" action="" onSubmit="return validar_formulario();">
+            <h1> Iniciar Sesion </h1>
+            <br>
+            <label>Correo</label>
+            <input id="txtEmail" name="email" value="" type="email"  />
+            <br>
+            <label>Contraseña</label>
+            <input id="txtPassword" name="contrasena" value="" type="password" />
+            <br>
+            <label >Recordarme </label>
+            <input name="recordar" value="H" type="radio" />
+            <label >No Recordarme </label>
+            <input name="norecordar" value="N" type="radio" />
+            <br>
+            <input class="boton" name="logiar" value="Logiar" type="submit" />
+            <p id="errores"></p>
+        </form>
+    </body>
+    <script type="text/javascript" src="sprint3.js" ></script>
+</html>
