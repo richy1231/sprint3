@@ -85,17 +85,6 @@ function validar_formulario1() {
         hay_errores = true;
         //return false;
     }
-
-    if (password.value.length == 0 || password.value.length < 8) {
-        //alert('La contraseña es un campo requerido y debe tener más de 8 caracteres.');
-        errores.innerHTML += 'Confirmar contraseña es un campo requerido y debe tener más de 8 caracteres.<br/>'
-        password.className = "error";
-        hay_errores = true;
-        //return false;
-    }
-
-
-
     return !hay_errores;
 
 }

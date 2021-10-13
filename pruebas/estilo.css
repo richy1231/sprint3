@@ -11,7 +11,7 @@ h1 {
 }
 
 #formRegistro {
-    width: 70%;
+    width: 50%;
     background-color: hsla(0, 0%, 93%);
     border-style: dashed;
     border-color: #e9f1e9;
@@ -129,15 +129,15 @@ body {
 }
 
 #btn-login {
-    background-color: #00A400;
+    background-color: #0B82F2;
 }
 
 #btn-login:hover {
     transform: scale(1.1);
 }
 
-#btn-vision {
-    background-color: #c1d1c1;
+#btn-conocenos {
+    background-color: #6093f1;
 }
 
 #btn-signup:hover {

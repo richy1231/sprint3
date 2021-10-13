@@ -64,15 +64,29 @@ body {
 }
 
 #btn-login {
-    background-color: #00A400;
+    transform: scale(1.1);
 }
 
 #btn-login:hover {
     transform: scale(1.1);
 }
 
-#btn-vision {
-    background-color: #c1d1c1;
+#btn-conocenos {
+    background-color: #0B82F2;
+}
+
+#btn-contactanos {
+    background-color: #0B82F2;
+}
+
+#btn-politica {
+    background-color: #0B82F2;
+    transform: scale(1.1);
+}
+
+#btn-terminos {
+    background-color: #0B82F2;
+    transform: scale(1.1);
 }
 
 #btn-signup:hover {
@@ -107,4 +121,11 @@ img {
     width: 80%;
     height: 600px;
     margin-left: 100px;
+}
+
+h2 {
+    text-align: center;
+    background-color: hsla(0, 0%, 93%);
+    ;
+    color: #0D3B66;
 }
